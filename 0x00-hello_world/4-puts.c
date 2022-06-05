@@ -1,9 +1,7 @@
 #include<stdio.h>
 
 /**
- *Description - A C program that prints.
- *
- *main - Entry point.:
+ *Description: main - A C program that prints.
  *
  *Return: Always return value 0 (Success)
  *
