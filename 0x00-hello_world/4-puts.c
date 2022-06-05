@@ -1,14 +1,13 @@
 #include<stdio.h>
 
 /**
- *Decription - Write a C program that prints exactly.
+ *Description - A C program that prints.
  *
- *Main - main entry point.
+ *main - Entry point.:
  *
  *Return: Always return value 0 (Success)
  *
  */
-
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
