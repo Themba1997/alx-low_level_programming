@@ -1,33 +1,20 @@
 #include <stdio.h>
 
-
-
 /**
-
- * main - Prints the alphabetic
-
+ * Description: main - Prints the alphabetic
  *
-
- * Return: Always (Success)
-
+ * Return: Always 0 (Success)
+ *
  */
 
 int main(void)
-  
 {
-  
-  char b;
-  
-
-  
-  for (b = 'a'; b <= 'z'; b++)
-    
-    putchar(b);
-  
-
-  
-  putchar('\n');
-  
-  return (0);
-  
+char c = 'a';
+while (c <= 'z')
+{
+putchar(c);
+c++;
+}
+putchar('\n');
+return (0);
 }
