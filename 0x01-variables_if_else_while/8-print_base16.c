@@ -1,50 +1,25 @@
 #include <stdio.h>
 
-
-
 /**
-
- * main - Prints a hexadecimal string
-
+ * Description: main - Prints a hexadecimal string
  *
-
- * Return: Always (Success)
-
+ * Return: Always 0 (Success)
  */
 
 int main(void)
-  
 {
-  
-  char b;
-  
-
-  
-  for (b = '0'; b <= '9'; b++)
-    
-    {
-      
-      putchar(b);
-      
-    }
-  
-
-  
-  for (b = 'a'; b <= 'f'; b++)
-    
-    {
-      
-      putchar(b);
-      
-    }
-  
-
-  
-  putchar('\n');
-  
-
-  
-  return (0);
-  
-
+char c = '0';
+char C = 'a';
+while (c <= '9')
+{
+putchar(c);
+c++;
+}
+while (C <= 'f')
+{
+putchar(C);
+C++;
+}
+putchar('\n');
+return (0);
 }
